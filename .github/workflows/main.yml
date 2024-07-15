@@ -8,10 +8,10 @@ jobs:
     permissions:
       contents: write
     steps:
-    - uses: bcanseco/github-contribution-graph-action@v2
+    - uses: mouryat3007/github-contribution-graph-action@v2
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        GIT_EMAIL: you@youremail.com # replace me
+        GITHUB_TOKEN: ${{ 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 }}
+        GIT_EMAIL: mouryat3007@gmail.com # replace me
         MAX_DAYS: 365
         MIN_COMMITS_PER_DAY: 1
         MAX_COMMITS_PER_DAY: 5
