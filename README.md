@@ -1,2 +1,2 @@
 # php-website
-php
+This website is based on PHP
